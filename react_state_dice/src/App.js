@@ -1,13 +1,11 @@
-
 import './App.css';
 import Die from './Die';
 
 function App() {
   return (
-    <div>
-      <Die />
-    {/* <div className="App">
-       <header className="App-header">
+     <div className="App">
+      <Die face='five'/> {/* This is a prop is send to die.js */}
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
